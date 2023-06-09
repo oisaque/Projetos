@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+width: 100%;
+background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%), url(/WebSiteCurso/img/Background.jpg);
+background-position: center;
+background-size: cover;
+height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #fe6a01;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+    padding-left: 0px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+ul li a:hover{
+    color: #fe6a01;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fe6a01;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.search ::placeholder{
+    color: white;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+
+}
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+    outline:none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.content .par{
+ padding-bottom: 25px;
+ font-family: Arial;
+ letter-spacing: 1.2px;
+ line-height: 30px;   
+ text-align: justify;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #fe6a01;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    color: #fff;
+}
+.content .cna a{
+    text-decoration: none;
+    color: #ff7200;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: white;
+    color: #ff7200;
+
+}
+.content span{
+    color: #fe6a01;
+    font-size: 65px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    left: 445px;
+    transform: translate(0%, -5%);
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+}
+
+.form h2 {
+    width: 230px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    text-align: center;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-size: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    font-family: sans-serif;
+}
+.btnLogin {
+    width: 240px;
+    height: 40px;
+    background: #ffae6cef;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: hand;
+    color:#fff;
+    /*transition: .4s ease;*/
+}
+
+.btnLogin:hover{
+    background: #ff7200;
+    color: #fff;
+    /*transition: .4s ease;*/
+}
+
+.btnLogin:active{
+    background: #fff;
+    color: #ff7200;
+    transition: .4s ease;
+}
+
+.btnLogin a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #888888;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons ion-icon {
+    color: #fff;
+}

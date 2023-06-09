@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/iconfavicon.png">
+    <script src="js/script.js"></script>
+    <title>Dev Web</title>
+</head>
+
+<body onload = "displayoff()">
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Dev Web</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="index.html">SOBRE </a></li>
+                    <li><a href="index.html">SERVIÇOS</a></li>
+                    <li><a href="index.html">DESIGN</a></li>
+                    <li><a href="index.html">CONTATO</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Digite a pesquisa">
+                <a href="#"><button class="btn">Pesquisar</button></a>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Cursos<br><span>Web Design &</span><br>Programação</h1>
+            <p class="par"><br>Bem-vindo ao curso de programação! Este curso é projetado para ajudá-lo a desenvolver
+                habilidades essenciais de programação, independentemente do seu nível de experiência atual. Se você é um
+                iniciante completo ou já tem alguma experiência em programação, este curso fornecerá uma base sólida
+                para o seu crescimento como programador.
+
+                Durante o curso, você aprenderá os conceitos fundamentais de programação, como variáveis, estruturas de
+                controle de fluxo, funções e objetos. Você também aprenderá como aplicar esses conceitos em várias
+                linguagens de programação, incluindo HTML, CSS e JavaScript.</p>
+            <a href="#"><button class="cn" onclick="displayon()">Junte-se</button></a>
+
+            <div class="form" id = "form">
+				<ion-icon name="close-circle-outline" class="close" onclick="displayoff()"></ion-icon>
+                <h2>Login</h2>
+                <input type="email" name="e-mail" placeholder="Digite seu e-mail">
+                <input type="password" name="" placeholder="Digite sua senha">
+                <a href="#"></a><button class="btnLogin" onclick="displayoff()">Entrar</button></a>
+                <p class="link">Não tenho conta<br>
+                    <a href="https://www.linkedin.com/in/oisaqueandrade">Crie sua Conta</a>
+                </p>
+                <p class="liw">Entrar com outra conta</p>
+
+                <div class="icons">
+                    <a href="https://www.facebook.com/oisaqueandrade/"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/oisaqueandrade/"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="http://"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="http://"><ion-icon name="logo-google"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>
