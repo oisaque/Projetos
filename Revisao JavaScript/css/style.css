@@ -1,0 +1,14 @@
+button {
+    outline: none;
+    border: 1px solid #a25cf1;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #3d2a94;
+    background: transparent;
+    font-style: italic;
+}
+button:hover {
+background: linear-gradient(#a25cf1, #641cb6);
+box-shadow: 0 2px 15px rgba(119, 38, 248, 0.26);
+color: #fff;
+}
