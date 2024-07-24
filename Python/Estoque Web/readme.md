@@ -1,6 +1,6 @@
 # Estoque
 
-Controle de Estoque
+`Controle de Estoque`
 
 ## Como Rodar Projeto?
 
