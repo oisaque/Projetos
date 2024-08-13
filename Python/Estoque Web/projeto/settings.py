@@ -23,7 +23,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
-# 'django-insecure-tb@yx5d=xipo)@8d@m##b(fuhi93qbe(s-o8f&q0-+d0!6v+ix'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
@@ -40,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'projeto.core',
 ]
 
 MIDDLEWARE = [
