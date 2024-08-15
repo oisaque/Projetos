@@ -6,8 +6,8 @@ from projeto.produto.models import Produto
 # Create your models here.
 
 MOVIMENTO = (
-    ('e', 'entrada'),
-    ('s', 'saida'),
+    ('e', 'Entrada'),
+    ('s', 'Saida'),
 )
 
 class Estoque(TimeStampedModel):
